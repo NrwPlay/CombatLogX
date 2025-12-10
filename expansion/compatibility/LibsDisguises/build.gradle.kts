@@ -1,7 +1,7 @@
 repositories {
-    maven("https://repo.md-5.net/content/groups/public/")
+    maven("https://nexus.sirblobman.xyz/proxy-public")
 }
 
 dependencies {
-    compileOnly("me.libraryaddict.disguises:libsdisguises:11.0.5")
+    compileOnly("me.libraryaddict.disguises:libsdisguises:11.0.13-SNAPSHOT")
 }
